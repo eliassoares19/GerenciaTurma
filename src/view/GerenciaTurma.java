@@ -281,9 +281,7 @@ public class GerenciaTurma {
                                                 do {
                                                     System.out.println("Digite a questão: ");
                                                     String questao = ler.next();
-                                                    System.out.println("Qual número da questão: ");
-                                                    int num = ler.nextInt();
-                                                    questoes.add(num, questao);
+                                                    questoes.add(questao);
                                                     System.out.println("Questao da Prova adicionada!");
                                                     System.out.println("Quer adicionar mais uma questão nesta Prova [S ou N]? ");
                                                     resp = (char) System.in.read();
@@ -295,9 +293,7 @@ public class GerenciaTurma {
                                             do {
                                                 System.out.println("Digite a questão: ");
                                                 String questao = ler.next();
-                                                System.out.println("Qual número da questão: ");
-                                                int num = ler.nextInt();
-                                                questoes.add(num, questao);
+                                                questoes.add(questao);
                                                 System.out.println("Questao da Prova adicionada!");
                                                 System.out.println("Quer adicionar mais uma questão nesta Prova [S ou N]? ");
                                                 resp = (char) System.in.read();

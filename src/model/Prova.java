@@ -13,7 +13,7 @@ import java.util.ArrayList;
  */
 public class Prova extends Avaliacao {
     private ArrayList<String> questoes;
-    private int maximo;
+    //private int maximo;
     private String ID;
     
     public Prova(){
@@ -30,8 +30,7 @@ public class Prova extends Avaliacao {
     }
     
     public void adicionarQuestao(String q){
-        if(questoes.size() < maximo)
-            questoes.add(q);
+        questoes.add(q);
     }
     @Override
     public void setTexto(ArrayList<String> questoes){
