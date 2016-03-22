@@ -12,14 +12,11 @@ public class Aluno implements Logavel{
     private String matricula;
     private String senha;
     private ArrayList<FolhaResposta> respostas = new ArrayList<>();
-    private ArrayList<FolhaResposta> respostasProva = new ArrayList<>();
-    private ArrayList<FolhaResposta> respostasTrabalho = new ArrayList<>();
     
     public Aluno(String n, String m, String senha){ 
         nome = n;
         matricula = m;
         this.senha = senha;
-        this.respostas = new ArrayList<FolhaResposta>();
     }    
     public String getNome() {
         return nome;

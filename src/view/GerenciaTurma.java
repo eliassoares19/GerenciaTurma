@@ -285,7 +285,11 @@ public class GerenciaTurma {
                                                     System.out.println("Questao da Prova adicionada!");
                                                     System.out.println("Quer adicionar mais uma questão nesta Prova [S ou N]? ");
                                                     resp = (char) System.in.read();
+                                                    if(resp == 'N' || resp == 'n'){
+                                                        break;
+                                                    }
                                                 } while (resp == 'S' || resp == 's');
+                                                System.out.println(ID + "-" + questoes);
                                                 t1.incluirAvaliacaoProva(ID, questoes);
                                             }
                                             break;

@@ -79,7 +79,7 @@ public class Turma implements Logavel {
         }
         return -1;
     }
-    public ArrayList<String> visualizaFolhaRespostaProva(String ID, String mat){ //receber aluno como parametro
+    public ArrayList<String> visualizaFolhaRespostaProva(String ID, String mat){ 
         for(Aluno a : alunos){
             if(a.getMatricula().equals(mat)){
                 for(Avaliacao av : avaliacoes){

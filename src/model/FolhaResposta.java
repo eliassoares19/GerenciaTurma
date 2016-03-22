@@ -13,7 +13,7 @@ import java.util.ArrayList;
  */
 public class FolhaResposta {
     private float nota;
-    private Avaliacao aval;
+    private Avaliacao aval = null;
     private Aluno aluno;
     
     public FolhaResposta(Avaliacao aval) {

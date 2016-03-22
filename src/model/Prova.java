@@ -12,8 +12,8 @@ import java.util.ArrayList;
  * @author Elias
  */
 public class Prova extends Avaliacao {
-    private ArrayList<String> questoes;
-    //private int maximo;
+    private ArrayList<String> questoes = new ArrayList<>();
+    private int maximo;
     private String ID;
     
     public Prova(){
